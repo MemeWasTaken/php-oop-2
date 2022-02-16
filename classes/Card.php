@@ -6,12 +6,12 @@
         protected $expirationDate;
         protected $cvc;
 
-        // public function __construct($name, $lastname, $email, $numberPhone, $bank, $numberCard, $expirationDate, $cvc) {
+        // public function __construct($name, $lastname, $email, $numberPhone, $bank, $card, $numberCard, $expirationDate, $cvc) {
 
         public function __construct($numberCard, $expirationDate, $cvc) {
 
             try {
-                // parent::__construct($name, $lastname, $email, $numberPhone, $bank);
+                // parent::__construct($name, $lastname, $email, $numberPhone, $bank, $card);
                 $this->numberCard = $numberCard;
                 $this->expirationDate = $expirationDate;
                 $this->cvc = $cvc;
